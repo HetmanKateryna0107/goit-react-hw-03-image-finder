@@ -26,7 +26,7 @@ export class App extends Component {
     }
   }
   onSubmit = query => {
-    this.setState({ query, page: 1 });
+    this.setState({ query, page: 1, images: [] });
   };
   openModal = largeImageURL => {
     this.setState({ largeImageURL });

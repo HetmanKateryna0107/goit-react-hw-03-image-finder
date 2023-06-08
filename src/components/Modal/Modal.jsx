@@ -42,4 +42,7 @@ export class Modal extends Component {
     );
   }
 }
-Modal.propTypes = {};
+Modal.propTypes = {
+  handleKeyDown: PropTypes.func,
+  handelClick: PropTypes.func,
+};

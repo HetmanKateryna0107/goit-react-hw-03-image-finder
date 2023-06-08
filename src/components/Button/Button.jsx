@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export const Button = ({ onChangePage }) => {
   return (
     <button type="button" onClick={onChangePage}>
@@ -5,4 +6,6 @@ export const Button = ({ onChangePage }) => {
     </button>
   );
 };
-Button.propTypes = {};
+Button.propTypes = {
+  onChangePage: PropTypes.func,
+};
