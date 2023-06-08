@@ -34,4 +34,4 @@ export class SearchBar extends Component {
     );
   }
 }
-// SearchBar.propTypes = {};
+SearchBar.propTypes = {};
